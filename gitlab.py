@@ -4,8 +4,8 @@ import requests
 import model
 import lib
 
-base_url = 'https://code.gammainfo.com/api/v3'
-headers = {'PRIVATE-TOKEN': 'r48K5-AxHFWTfVkKogNX'}
+base_url = 'https://***/api/v3'
+headers = {'PRIVATE-TOKEN': '***'}
 
 
 def get_users():

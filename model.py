@@ -3,10 +3,10 @@
 import pymysql.cursors
 import time
 
-connection = pymysql.connect(host='dev.gammainfo.com',
+connection = pymysql.connect(host='***',
                              port=3306,
                              user='root',
-                             password='Gamma0903',
+                             password='***',
                              db='gitlab',
                              charset='utf8',
                              cursorclass=pymysql.cursors.DictCursor)
